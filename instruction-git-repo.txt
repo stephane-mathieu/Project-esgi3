@@ -32,12 +32,11 @@ merge de la brancheB  (toujours dans la branche master)
 
 git merge BrancheB 
 
+git clone <url>
+
 git remote add <nom> <url>
 git push <nom que on a donner >
 
 
-part 2 
-
-git clone <url>
 
 
