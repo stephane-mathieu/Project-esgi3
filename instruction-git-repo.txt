@@ -1,0 +1,43 @@
+Projet réalisé sous LINUX
+
+création repos -> git init <nom du repos> 
+Accéder au dossier du dépôt -> cd <nom du repos > 
+une fois dans le repos, création de fichier -> nano file1.txt , nano file2.txt
+Ajout des fichiers au suivi de Gits -> git add * ( le * pour sélectionner tous les fichiers ) 
+Création d'un commit avec un message descriptif -> git commit -m "nom du commit " 
+Création des branche A et B -> git branch <nom de la brancheA > -> répéter la commande pour la branche 2
+pour passer a une autre branche -> git switch <nom de la branche>
+
+
+je passe dans la brancheA
+création d'un fichier -> nano file3.txt
+je modifie le fichier file2.txt 
+ajout des fichiers au suivi de Gits -> git add * 
+Création d'un commit avec un message descriptif -> git commit -m "nom du commit " 
+
+
+je passe dans la brancheB
+création d'un fichier ->nano file4.txt
+je modifie le fichier file1.txt
+ajout des fichiers au suivi de Gits -> git add * 
+Création d'un commit avec un message descriptif -> git commit -m "nom du commit " 
+
+
+merge de la branche A a Master
+git switch master
+
+git merge BrancheA
+
+merge de la brancheB  (toujours dans la branche master) 
+
+git merge BrancheB 
+
+git remote add <nom> <url>
+git push <nom que on a donner >
+
+
+part 2 
+
+git clone <url>
+
+
